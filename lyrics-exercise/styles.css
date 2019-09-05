@@ -1,0 +1,25 @@
+header {
+	font-family: "din alternate";
+	font-size: 100px;
+	color: red;
+	text-align: left;
+	padding-left:20%;
+	padding-top:20px;
+}
+h1 {
+	font-family: "din alternate";
+	font-size: 20px;
+	color: #696969;
+	text-align: left;
+	padding-left: 20%;
+}
+body {
+	background-color: black;
+}
+section {
+	color: white;
+	font-family: "din alternate";
+	text-align: left;
+	padding-left:20%;
+	line-height: 10px;
+}
