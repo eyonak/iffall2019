@@ -9,12 +9,14 @@ header {
 h1 {
 	font-family: "din alternate";
 	font-size: 20px;
-	color: #696969;
+	color: #C2DFFF;
 	text-align: left;
 	padding-left: 20%;
 }
 body {
-	background-color: black;
+	background-image: url("stars_background_2.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
 }
 section {
 	color: white;
@@ -22,4 +24,11 @@ section {
 	text-align: left;
 	padding-left:20%;
 	line-height: 10px;
+}
+h2 {
+	font-family: "din alternate";
+	color: #cccccc;
+	padding-left: 20%;
+	padding-bottom: 10%;
+	font-size: 12px;
 }
