@@ -1,0 +1,54 @@
+body {
+	font-family: "Ubuntu";
+	font-size: 50px; /*16px; 16%; 1em;*/
+	background-color: #ffdbe9;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+h1 {
+	font-size: 2em; /* 1em is the same as 16pt because that's the defined font size */
+	padding-top: 10%;
+}
+div {
+	font-size: .5em;
+	color: #696969;
+	font-weight: 900; /*100, 200, 300, 400, 500, 600, 700, 800, 900, all of these are font weights for some of the more common fonts*/
+	text-decoration: ;
+}
+strong {
+	font-style: italic;
+}
+.underline {
+	text-decoration: line-through;
+	color: #e0115f;
+	font-size: 1em;
+}
+.fontweight { 
+	font-family: "Ubuntu";
+	font-weight: 700;
+	color: #bc8f8f; 
+}
+
+.fontstyle {
+	font-style: oblique;
+	color: #fe994a;
+}
+.letterspacing {
+	letter-spacing: .5em;
+	color: #b22222;
+}
+.texttransform {
+	color:#800080;
+	text-transform: uppercase;
+}
+footer {
+	font-size: .25em;
+}
+
+
+
+
+
+
+
+
