@@ -1,0 +1,67 @@
+.information {
+	font-family: Bitter ;
+	text-align: center;
+	line-height: .5em;
+	color: white;
+}
+header {
+	font-size: 200px;
+	font-family: bitter ;
+	text-align: center;
+	line-height: .75em;
+	padding-top: 20%;
+	color: white;
+}
+body {
+	background-image: url("underwater.jpg");
+		background-repeat:no-repeat;
+        background-size: cover;
+    	background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+	text-shadow: 0 0 3px black;
+	
+}
+.verse1 {
+	color: white;
+	font-family: Lato;
+	text-align: center;
+}
+
+.bridge {
+	color: white;
+	font-family: Lato;
+	text-align: center;
+	font-style: oblique;
+}
+.chorus {
+	color: white;
+	text-align: center;
+	font-family: Lato;
+	font-weight: 700;
+}
+.footer {
+	color: white;
+	font-size: 12px;
+	font-family: Lato;
+	padding-left: 35%;
+}
+audio {
+/*	alignment-baseline: center;
+*/	margin: auto;
+	display: inline-block;
+}
+#wrapper{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
