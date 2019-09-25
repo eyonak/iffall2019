@@ -1,0 +1,40 @@
+header {
+	margin-bottom: 3rem;
+}
+p* {
+	line-height: 1.6
+}
+a.see-all {
+	font-size: .8em;
+	text-transform: uppercase;
+}
+h1 { 
+	font-size: 2.5rem;
+}
+section h2 {
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+h1, h2 {
+	font-weight: lighter;
+}
+img {
+	width: 100%;
+}
+section.cast li {
+	width: 25%;
+}
+li .selected {
+	color: black;
+	text-transform: bold;
+}
+.cast div {
+	font-size: .8rem
+}
+#gameofthrones section.seasons ul:first-of-type li:last-of-type:after{
+	content: "*";
+}
+
+	
+
+
