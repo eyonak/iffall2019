@@ -1,0 +1,22 @@
+.art {
+	background-image: "forthamotha.jpg";
+	width: full-width;
+	height: 200px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("https://wudesign.me/resources/html_tracing/images/bg.png");
+	background-position: center top;
+	min-height: 2380px;
+}
+div second-of-kind {
+	/*background-color: #7fffd4;
+	height:700px;
+	width: full-width;*/
+}
+section {
+	padding-left:56%;
+	align-content: right;
+	padding-top: 20px;
+}
