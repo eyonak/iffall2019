@@ -1,0 +1,72 @@
+body {
+	background-color: black;
+}
+p {
+	font-family: din-condensed, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: white;
+	font-size: 20px;
+	margin-right: 10%;
+	padding-top: 35px;
+	margin-left: 25px;
+	padding-left: 25px;
+	float: left;
+	max-width: 600px;
+	display: inline-block;
+}
+nav{ 
+	padding-top:20px; 
+}
+a {
+	padding-right: 15px;
+	color: white;
+	margin-top: 25px;
+	letter-spacing: 2.5px;
+	text-decoration: none;
+}
+a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+h2 {
+	color: white;
+	font-family: rift-soft, sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 5px;
+	text-align: left;
+	margin-top: 100px;
+	float: left;
+	margin-right: 10%;
+}
+header {
+	color: white;
+	font-family: rift-soft, sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	font-style: normal;
+	text-align: right;
+	margin-right: 10%;
+}
+img {
+	margin-top: 100px;
+	display: inline-block;
+	float: left;
+	margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
