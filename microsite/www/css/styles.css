@@ -1,5 +1,7 @@
 body {
-	background-color: black;
+	background-image: url("texture.jpeg");
+	/*background-color: black;*/
+	height: 1200px;
 }
 h1 {
 	font-size: 75px;
@@ -23,7 +25,8 @@ p {
 	padding-left: 25px;
 	margin-left: 25px;
 	margin-right: 10%;
-/*	padding-top: 35px;*/
+	max-width: 700px;
+	display: inline-block;
 }
 header {
 	color: white;
@@ -34,37 +37,41 @@ header {
 	text-align: right;
 	margin-right: 10%;
 }
+a {
+	padding-right: 15px;
+	color: white;
+	margin-top: 25px;
+	letter-spacing: 2.5px;
+	text-decoration: none;
+}
 div {
 	display: inline-block;
 	float:left;
 	position: relative;
 
 }
-main img {
-	margin-top: -50px;
+.georges {
 	margin-right: 50px;
-	background-attachment: fixed;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
   	align-items: center;
   	margin-bottom: 50px;
+  	max-width: 500px;
+  	margin-top: 70px;
+  	margin-left: 50px;
+  	width: 40%;
 }
-.still {
-	display:block;
-	float: left;
-	width: full-width;
-}
-a {
-	padding-right: 15px;
-	color: white;
-	margin-top: 25px;
-	letter-spacing: 2.5px;
+.moon {
+	margin-right: 50px;
+  	align-items: center;
+  	margin-bottom: 50px;
+  	max-width: 500px;
+  	margin-top: 70px;
+  	margin-left: 50px;
+  	width: 40%;
 }
 nav{ 
 	padding-top:20px; }
 a:hover {
-	color: yellow;
+	color: red;
 	text-decoration: none;
 }
 a:visited {
@@ -80,13 +87,56 @@ h2 {
 	width: 100%;
 	text-align: center
 }
-.moon {
-	max-width: 100px;
+.text {
+	/*float: right;*/
+	display: inline-block;
+	width: 50%;
+}
+footer {
+	color: white;
+	font-family: din-condensed, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 10px;
+	text-align: bottom;
+}
+img {
+	width: 100%;
 	display: inline-block;
 	float: left;
-	margin-left: 50px;
+	display: table-row;
+	display: table-cell;
 }
+/*div {
+	display: table-row;
+}*/
+.outer {
+	width: 100vw;
+	margin: 0;
+}
+@media (max-width: 600px){
+	div.text {
+		width: 80%;
+	}
+}
+.set {
+	width: full-width;
+	margin-bottom: 35px;
+}
+.butt {
+	width: full-width;
+	margin-bottom: 45px;
+}
+.newbutt {
+	width: full-width;
+	margin-top: 35px;
+}
+.eerie {
+	width: full-width;
+	margin-top: 40px;
+	margin-bottom: 40px;
 
+}
 
 
 

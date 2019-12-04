@@ -23,6 +23,7 @@ a {
 	color: white;
 	margin-top: 25px;
 	letter-spacing: 2.5px;
+	text-decoration: none;
 }
 a:hover {
 	color: yellow;
